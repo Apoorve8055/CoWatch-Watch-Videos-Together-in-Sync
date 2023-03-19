@@ -4,12 +4,14 @@ import {
   Outlet,
   RouterProvider,
 } from "react-router-dom";
+import Login from "./Pages/Login/Login";
+import Register from "./Pages/Register/Register";
 
 const App = () => {
   const currentUser = false;
   const Layout = () => {
     return (
-      <div>
+      <div className="">
         <Outlet />
       </div>
     );
@@ -23,11 +25,11 @@ const App = () => {
   const router = createBrowserRouter([
     {
       path: "/login",
-      element: <h1>Login</h1>,
+      element: <Login />,
     },
     {
       path: "/register",
-      element: <h1>Register</h1>,
+      element: <Register />,
     },
     {
       path: "/cowatchroom",
