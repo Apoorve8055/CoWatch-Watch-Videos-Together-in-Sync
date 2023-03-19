@@ -1,0 +1,6 @@
+@use "../../theme/colors.scss" as *;
+.Sidebar {
+  color: aliceblue;
+  width: calc(100vh - 60vh);
+  border-right: 1px solid $border-color;
+}

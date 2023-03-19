@@ -4,14 +4,20 @@ import {
   Outlet,
   RouterProvider,
 } from "react-router-dom";
+import Header from "./Components/Header/Header";
+import Sidebar from "./Components/Sidebar/Sidebar";
+import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login";
 import Register from "./Pages/Register/Register";
+import "./App.scss";
 
 const App = () => {
-  const currentUser = false;
+  const currentUser = true;
   const Layout = () => {
     return (
-      <div className="">
+      <div className="App">
+        <Header />
+        <Sidebar />
         <Outlet />
       </div>
     );
@@ -45,7 +51,7 @@ const App = () => {
       children: [
         {
           path: "/",
-          element: <h1>Home</h1>,
+          element: <Home />,
         },
         {
           path: "/chat",

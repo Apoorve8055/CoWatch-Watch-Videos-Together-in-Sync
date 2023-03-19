@@ -1,0 +1,41 @@
+@use "../../theme/colors.scss" as *;
+.Header {
+  color: aliceblue;
+  width: calc(100vh - 90vh);
+  border-right: 1px solid $border-color;
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+
+    .header-menu {
+      img {
+        width: calc(100vh - 94vh);
+        height: calc(100vh - 94vh);
+        border: 4px solid $border-color;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+      .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding-top: 20px;
+        .item {
+          cursor: pointer;
+        }
+      }
+    }
+    .logOut {
+      padding-bottom: 20px;
+      cursor: pointer;
+    }
+  }
+}
