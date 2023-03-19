@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# CoWatch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to CoWatch! CoWatch is a web application that allows you to watch videos together with friends and family in real-time, no matter where they are in the world. With CoWatch, you can stay connected with your loved ones while enjoying your favorite videos together.
 
-## Available Scripts
+## Technology
 
-In the project directory, you can run:
+CoWatch is built using the MERN stack, which includes:
 
-### `npm start`
+- MongoDB
+- Express.js
+- React.js
+- Node.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Developer
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+CoWatch was developed by Apoorve Verma, an experienced full-stack developer. You can learn more about Apoorve and check out their other projects on their GitHub profile: [Apoorve805](https://github.com/Apoorve805).
+Website: [apoorveverma.com](https://apoorveverma.com/).
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get started with CoWatch, follow these steps:
 
-### `npm run build`
+1.  Clone the CoWatch repository to your local machine.
+2.  Install the required dependencies using `npm install`.
+3.  Start the application using `npm start`.
+4.  Navigate to `http://localhost:3000` in your web browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+CoWatch offers a range of features that make it the ultimate video-watching platform, including:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Real-time video synchronization
+- Chat with friends and family while watching videos together
+- Support for multiple video sources, including YouTube and Vimeo
+- Easy-to-use interface that makes it simple to invite friends and family to join your video watching session
 
-### `npm run eject`
+## Support
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+If you have any questions or issues with CoWatch, please don't hesitate to reach out to us at [support@cowatch.com](mailto:support@cowatch.com).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+We welcome contributions to CoWatch from the community. If you would like to contribute, please fork the repository and submit a pull request with your changes. We'll review your changes and merge them if they're a good fit.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+CoWatch is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use and modify the code as you see fit.
