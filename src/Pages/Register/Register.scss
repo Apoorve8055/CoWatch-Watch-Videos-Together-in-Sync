@@ -1,0 +1,87 @@
+@import "../../theme/colors";
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: $border-or-icon-color;
+
+  .card {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+    width: 50%;
+    overflow: hidden;
+    min-height: 600px;
+
+    .left {
+      flex: 1;
+      position: relative; /* add relative positioning */
+      background: url("https://unsplash.com/photos/91HFUXYi_Jg/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mjh8fHZpZGVvJTIwY2FsbHxlbnwwfHx8fDE2NzkxNzM3ODE&force=true&w=1920");
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      align-items: flex-end;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.3;
+        mix-blend-mode: multiply; /* blend mode to create contrast */
+      }
+      .left-container {
+        padding: 20px;
+        position: relative;
+        z-index: 1;
+        .Heading {
+          color: #fff;
+          font-size: 4rem;
+          letter-spacing: 0.5rem;
+        }
+        .subText {
+          color: #fff;
+          padding: 20px 0px;
+          letter-spacing: 0.1rem;
+        }
+      }
+    }
+    .right {
+      flex: 1;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .right-container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 16px;
+        .heading {
+          color: $text-color;
+          font-size: 2rem;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        .subtext {
+          letter-spacing: 0.1rem;
+        }
+        .inputField {
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          border-radius: 4px;
+          box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+          padding: 10px;
+        }
+        .btn {
+          color: #fff;
+          background-color: $button-color;
+        }
+      }
+    }
+  }
+}
