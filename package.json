@@ -1,47 +1,22 @@
 {
   "name": "cowatch",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.10.6",
-    "@emotion/styled": "^11.10.6",
-    "@fontsource/roboto": "^4.5.8",
-    "@mui/icons-material": "^5.11.11",
-    "@mui/material": "^5.11.13",
-    "@mui/styled-engine-sc": "^5.11.11",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.9.0",
-    "react-scripts": "5.0.1",
-    "sass": "^1.59.3",
-    "styled-components": "^5.3.9",
-    "web-vitals": "^2.1.4"
-  },
+  "version": "1.0.0",
+  "description": "CoWatch is a web application that allows you to watch videos together with friends and family in real-time, no matter where they are in the world. With CoWatch, you can stay connected with your loved ones while enjoying your favorite videos together.",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "install": "cd client && npm install",
+    "start": "cd client && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apoorve8055/CoWatch---Watch-Videos-Together-in-Sync.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "author": "Apoorve Verma",
+  "author_url": "https://github.com/Apoorve8055",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Apoorve8055/CoWatch---Watch-Videos-Together-in-Sync/issues"
+  },
+  "homepage": "https://github.com/Apoorve8055/CoWatch---Watch-Videos-Together-in-Sync#readme"
 }
