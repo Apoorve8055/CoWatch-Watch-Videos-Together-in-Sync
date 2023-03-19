@@ -13,7 +13,7 @@ CoWatch is built using the MERN stack, which includes:
 
 ## Developer
 
-CoWatch was developed by Apoorve Verma, an experienced full-stack developer. You can learn more about Apoorve and check out their other projects on their GitHub profile: [Apoorve805](https://github.com/Apoorve805).
+CoWatch was developed by Apoorve Verma, an experienced full-stack developer. You can learn more about Apoorve and check out their other projects on their GitHub profile: [Apoorve805](https://github.com/Apoorve805). <br>
 Website: [apoorveverma.com](https://apoorveverma.com/).
 
 ## Getting Started
