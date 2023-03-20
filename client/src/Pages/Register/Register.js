@@ -5,8 +5,8 @@ import "./Register.scss";
 const Register = () => {
   return (
     <div className="container">
-      <div className="card">
-        <div className="left">
+      <div className="register-card">
+        <div className="register-left">
           <div className="left-container">
             <div className="Heading">CoWatch</div>
             <div className="subText">

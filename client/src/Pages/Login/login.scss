@@ -7,14 +7,14 @@
   align-items: center;
   background-color: $border-or-icon-color;
 
-  .card {
+  .login-card {
     display: flex;
     border-radius: 10px;
     width: 50%;
     overflow: hidden;
     min-height: 600px;
 
-    .left {
+    .login-left {
       flex: 1;
       background: url("../../assets/images/login-banner.jpg");
       background-position: center;

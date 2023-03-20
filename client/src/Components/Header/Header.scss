@@ -33,9 +33,12 @@
         }
       }
     }
-    .logOut {
-      padding-bottom: 20px;
-      cursor: pointer;
+    .link {
+      color: aliceblue;
+      .logOut {
+        padding-bottom: 20px;
+        cursor: pointer;
+      }
     }
   }
 }
