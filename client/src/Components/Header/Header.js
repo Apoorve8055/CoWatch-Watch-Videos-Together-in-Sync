@@ -5,6 +5,7 @@ import GroupRoundedIcon from "@mui/icons-material/GroupRounded";
 import SettingsRoundedIcon from "@mui/icons-material/SettingsRounded";
 import PowerSettingsNewRoundedIcon from "@mui/icons-material/PowerSettingsNewRounded";
 import ChatIcon from "@mui/icons-material/Chat";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -19,7 +20,9 @@ const Header = () => {
             <SettingsRoundedIcon className="item" />
           </div>
         </div>
-        <PowerSettingsNewRoundedIcon className="logOut" />
+        <Link to={"/login"} className="link">
+          <PowerSettingsNewRoundedIcon className="logOut" />
+        </Link>
       </div>
     </div>
   );

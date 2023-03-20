@@ -7,7 +7,7 @@
   align-items: center;
   background-color: $border-or-icon-color;
 
-  .card {
+  .register-card {
     display: flex;
     flex-direction: row-reverse;
     border-radius: 10px;
@@ -15,7 +15,7 @@
     overflow: hidden;
     min-height: 600px;
 
-    .left {
+    .register-left {
       flex: 1;
       position: relative; /* add relative positioning */
       background: url("../../assets/images/Register-banner.jpg");

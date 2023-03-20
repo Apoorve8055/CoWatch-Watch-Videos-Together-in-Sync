@@ -5,8 +5,8 @@ import "./login.scss";
 const Login = () => {
   return (
     <div className="login-container">
-      <div className="card">
-        <div className="left">
+      <div className="login-card">
+        <div className="login-left">
           <div className="left-container">
             <div className="Heading">Welcome Back!</div>
             <div className="subText">
