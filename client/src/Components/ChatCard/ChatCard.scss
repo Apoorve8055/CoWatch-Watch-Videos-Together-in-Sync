@@ -1,0 +1,49 @@
+@use "../../theme/colors.scss" as *;
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid $border-color;
+  cursor: pointer;
+
+  .person-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .person-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 12ch;
+  }
+
+  .sideIcons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .message-count {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: $msg-bg-color;
+    }
+
+    .favorite {
+      color: $favorite-color;
+      padding-left: 10px;
+    }
+
+    .icon {
+      font-size: 20px;
+      padding-left: 10px;
+    }
+  }
+}

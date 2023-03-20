@@ -1,6 +1,76 @@
 @use "../../theme/colors.scss" as *;
+
+// Sidebar styles
 .Sidebar {
-  color: aliceblue;
+  color: $element-color;
   width: calc(100vh - 60vh);
   border-right: 1px solid $border-color;
+
+  // Search styles
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: $element-bg-color;
+
+    .icon {
+      padding: 0 10px;
+    }
+
+    input {
+      width: 80%;
+      padding: 15px 0;
+      border: none;
+      outline: none;
+      color: #fff;
+      background-color: $element-bg-color;
+      font-size: 1rem;
+    }
+  }
+
+  // Chat container styles
+  .chat-container {
+    // Chat type styles
+    .chat-type {
+      display: flex;
+
+      .chat-type-item {
+        padding: 20px;
+        border-bottom: 1px solid $border-color;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        cursor: pointer;
+      }
+
+      .active {
+        border-right: 1px solid $border-color;
+        border-left: 1px solid $border-color;
+        border-bottom: none;
+      }
+    }
+
+    // Chat area styles
+    .chat-area {
+      height: calc(100vw - 64vw);
+      overflow-y: scroll;
+
+      &::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background-color: $border-color;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 10px;
+      }
+
+      &:hover::-webkit-scrollbar-thumb {
+        background-color: #555;
+      }
+    }
+  }
 }
