@@ -1,0 +1,29 @@
+@use "../../theme/colors.scss" as *;
+.chat-container {
+  color: aliceblue;
+  .chat-header {
+    height: calc(100vh - 90.5vh);
+    width: calc(100vw - 23vw);
+    border-bottom: 1px solid $border-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10px;
+    .chat-user {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+
+      .avatar {
+        margin-left: 5px;
+      }
+      .username {
+        font-size: larger;
+        font-weight: bold;
+        text-transform: capitalize;
+      }
+    }
+  }
+  .chat-body {
+  }
+}

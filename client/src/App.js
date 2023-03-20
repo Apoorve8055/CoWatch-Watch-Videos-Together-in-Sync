@@ -10,6 +10,7 @@ import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login";
 import Register from "./Pages/Register/Register";
 import "./App.scss";
+import Chat from "./Pages/Chat/Chat";
 
 const App = () => {
   const currentUser = true;
@@ -54,8 +55,8 @@ const App = () => {
           element: <Home />,
         },
         {
-          path: "/chat",
-          element: <h1>Chat</h1>,
+          path: "/chat/:id",
+          element: <Chat />,
         },
         {
           path: "/profile",
